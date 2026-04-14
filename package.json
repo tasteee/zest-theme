@@ -1,0 +1,44 @@
+{
+  "name": "zest-theme",
+  "displayName": "Zest — Dark Theme",
+  "description": "A semantic dark theme where color families map to identifiers, structure, and data.",
+  "version": "1.0.0",
+  "publisher": "tasteink",
+  "author": "tasteink <shanecolcleasure@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark",
+    "neon",
+    "green",
+    "pink",
+    "bold"
+  ],
+  "galleryBanner": {
+    "color": "#0A0F0A",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Zest Dark",
+        "uiTheme": "vs-dark",
+        "path": "./zest-dark-color-theme.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tasteee/zest-theme"
+  },
+  "homepage": "https://github.com/tasteee/zest-theme",
+  "bugs": {
+    "url": "https://github.com/tasteee/zest-theme/issues"
+  }
+}
